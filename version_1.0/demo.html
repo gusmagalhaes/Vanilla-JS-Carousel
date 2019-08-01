@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GETTING STARTED WITH BRACKETS</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+			  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+			
+				<link rel="stylesheet" type="text/css" href="vanillaslider/slider.css" />
+			
+    </head>
+	
+	<style>
+/*	Non essencial styling*/
+	body, h1, p {
+		margin: 0;
+		padding: 0;
+		background-color: #111;
+		color: #fff;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	 main {
+		 height: 100vh;
+		 width: 100vw;
+		 display: flex;
+		 justify-content: center;
+
+	 }
+	#slide-1,#slide-2,#slide-3,#slide-4{
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+   }	 
+	#slide-1 {
+      background-image: url(https://source.unsplash.com/Q1p7bh3SHj8/800x600);
+	}
+	#slide-2 {
+      background-image: url(https://source.unsplash.com/9o-VrJSwGuw/800x600);
+	}
+	#slide-3 {
+	  background-image: url(https://source.unsplash.com/f7YQo-eYHdM/800x600);
+	}
+	#slide-4 {
+	  background-image: url(https://source.unsplash.com/RF4p4rTM-2s/800x600);
+	}
+	</style>
+<body>
+      
+<main>
+
+	<div class="slides">
+		<div id="slide-1" class="active"></div>
+		<div id="slide-2"></div>
+		<div id="slide-3"></div>
+		<div id="slide-4"></div>
+	</div>
+
+	<ul class="slide-controller">
+		<li data-link="slide-1" class="active"></li>
+		<li data-link="slide-2"></li>
+		<li data-link="slide-3"></li>
+		<li data-link="slide-4"></li>
+	</ul>
+
+	<button class="arrow-button-right">
+		<img src="vanillaslider/arrow-right.svg" alt="next">
+	</button>
+
+	<button class="arrow-button-left">
+		<img src="vanillaslider/arrow-left.svg" alt="previous">
+	</button>
+
+</main>
+
+<script src="vanillaslider/slider.js" type="text/javascript" charset="utf-8"></script>       
+</body>
+</html>
