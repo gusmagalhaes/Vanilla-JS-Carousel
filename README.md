@@ -5,4 +5,4 @@ No libraries, no dependencies. Just plug it and use it!
 
 Live demo:
 
-https://www.gusmagalhaes.com/vanillacarousel/
+https://www.gusmagalhaes.com/vanilla-carousel/
